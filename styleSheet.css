@@ -1,0 +1,135 @@
+.cedarville-cursive-regular {
+    font-family: "Cedarville Cursive", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+body{
+    background: #374375;
+    margin: 0;
+    font-family: "Cedarville Cursive";
+
+}
+
+header{
+    display: grid;
+    place-items: center;
+}
+
+h1{
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #fffcf5;
+    font-size: 40px;
+    margin: 20px; 
+    width: 50%;
+}
+
+#banner{
+    height: 97%;
+    border-radius: 10px;
+}
+div {
+    display: grid;
+    place-items: center;
+}
+
+main{
+    margin: 5px;
+    display: grid;
+    place-items: center;
+    overflow: auto;
+}
+
+.texto{
+    font-family: "Cedarville Cursive";
+    font-size: 20px;
+    margin-top: 10px;
+    display: inline;
+    margin-left: auto;
+    margin-right: 10px;
+    background-color: #fffcf5;
+    border-color: #95bbf6;
+    border-radius: 10px;
+    border-width: 3px;
+}
+
+.mensaje{
+    font-family: "Cedarville Cursive";
+    font-size: 20px;
+    margin-top: 10px;
+    display: inline;
+    margin-left: 10px;
+    margin-right: auto;
+    background-color: #fffcf5;
+    border-color: #95bbf6;
+    border-radius: 10px;
+    border-width: 3px;
+}
+
+
+::placeholder {
+    color: #282119;
+}
+
+form button{
+    font-family: "Cedarville Cursive";
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 10px;
+}
+
+.button {
+    display: flex;
+    gap: 2em;
+}
+
+.Encriptar{
+        width: 100px;
+        height: 40px;
+        padding: 2px 0;
+        font-size: 22px;
+        color:black;
+        background: rgb(181, 214, 255);
+        border-color: #374375;
+        border-radius: 5px;
+        transition: 0.5s all;
+        cursor:pointer;
+        margin-left: 50px;
+}
+.Desencriptar{
+    width: 120px;
+    height: 40px;
+    padding: 2px 0;
+    font-size: 22px;
+    color:black;
+    background: rgb(181, 214, 255);
+    border-color: #374375;
+    border-radius: 5px;
+    transition: 0.5s all;
+    cursor:pointer;
+    margin-left: 50px;
+}
+.Encriptar:hover, .Desencriptar:hover {
+    background: rgb(141, 192, 255);
+}
+
+footer{
+    text-align: center;
+    background:rgb(255, 255, 255);
+    padding: 20px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+#logo{
+    height: 50px;
+}
+.copyright{
+    color: #282119;
+    font-size: 13px;
+    margin: 5px;
+}
